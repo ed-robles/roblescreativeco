@@ -19,3 +19,8 @@
 #navigation ul li a.current {
     text-decoration: none;
 }
+
+.body-fit {
+    width: 75%;
+    margin: 0 auto;
+}
