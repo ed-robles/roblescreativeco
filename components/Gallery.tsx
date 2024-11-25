@@ -9,7 +9,7 @@ import {
 
 const Gallery = () => {
     return (
-        <Carousel className="w-full max-w-xs text-center text-[#ff3300]">
+        <Carousel className="max-w-xs text-center text-[#ff3300]">
             <CarouselContent>
                 <CarouselItem>
                     <div className="p-1">

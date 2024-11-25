@@ -11,8 +11,7 @@ export default function Home() {
         <div className="flex flex-col items-center">
           <Banner />
         </div>
-        <div className="flex flex-col items-center">
-          <h2 className="text-2xl underline font-bold m-4 text-[#ff3300]">Our Services</h2>
+        <div className="flex flex-col mt-4 items-center">
           <Gallery />
         </div>
       </main>
