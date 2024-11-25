@@ -1,6 +1,6 @@
 const Gallery = () => {
     return (
-        <div className="text-center mx-4 bg-[#ff3300]">
+        <div className="text-center bg-[#ff3300]">
             <div className="p-10 m-4 border border-white shadow">
                 <p className="text-4xl font-semibold">Brand Identity</p>
                 <p className="pt-2 text-sm">Build a strong brand identity that resonates with your customers.</p>
