@@ -1,50 +1,19 @@
-import { Card, CardContent } from "@/components/ui/card"
-import {
-    Carousel,
-    CarouselContent,
-    CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
-} from "@/components/ui/carousel"
-
 const Gallery = () => {
     return (
-        <Carousel className="max-w-xs text-center text-[#ff3300]">
-            <CarouselContent>
-                <CarouselItem>
-                    <div className="p-1">
-                        <Card>
-                            <CardContent className="flex flex-col aspect-square items-center justify-center p-6 text-white bg-[#ff3300]">
-                                <span className="text-4xl font-semibold">Brand Identity</span>
-                                <span className="pt-2">Build a strong brand identity that resonates with your customers.</span>
-                            </CardContent>
-                        </Card>
-                    </div>
-                </CarouselItem>
-                <CarouselItem>
-                    <div className="p-1">
-                        <Card>
-                            <CardContent className="flex flex-col aspect-square items-center justify-center p-6 text-white bg-[#ff3300]">
-                                <span className="text-4xl font-semibold">Social Media Campaign</span>
-                                <span className="pt-2">Engage your audience with creative and impactful social media campaigns.</span>
-                            </CardContent>
-                        </Card>
-                    </div>
-                </CarouselItem>
-                <CarouselItem>
-                    <div className="p-1">
-                        <Card>
-                            <CardContent className="flex flex-col aspect-square items-center justify-center p-6 text-white bg-[#ff3300]">
-                                <span className="text-4xl font-semibold">E-Commerce</span>
-                                <span className="pt-2">Start selling online with a custom e-commerce website.</span>
-                            </CardContent>
-                        </Card>
-                    </div>
-                </CarouselItem>
-            </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
-        </Carousel>
+        <div className="text-center w-full bg-[#ff3300]">
+            <div className="p-10 border border-white">
+                <p className="text-4xl font-semibold">Brand Identity</p>
+                <p className="pt-2 text-sm">Build a strong brand identity that resonates with your customers.</p>
+            </div>
+            <div className="p-10 border border-white">
+                <p className="text-4xl font-semibold">Social Media Campaign</p>
+                <p className="pt-2 text-sm">Engage your audience with creative and impactful social media campaigns.</p>
+            </div>
+            <div className="p-10 border border-white">
+                <p className="text-4xl font-semibold">E-Commerce</p>
+                <p className="pt-2 text-sm">Start selling online with a custom e-commerce website.</p>
+            </div>
+        </div>
     )
 }
 
