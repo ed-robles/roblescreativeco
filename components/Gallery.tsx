@@ -14,8 +14,8 @@ const Gallery = () => {
                 <CarouselItem>
                     <div className="p-1">
                         <Card>
-                            <CardContent className="flex flex-col aspect-square items-center justify-center p-6">
-                                <span className="text-4xl font-semibold text-[#ff3300]">Brand Identity</span>
+                            <CardContent className="flex flex-col aspect-square items-center justify-center p-6 text-white bg-[#ff3300]">
+                                <span className="text-4xl font-semibold">Brand Identity</span>
                                 <span className="mt-2">Build a strong brand identity that resonates with your customers.</span>
                             </CardContent>
                         </Card>
@@ -24,8 +24,8 @@ const Gallery = () => {
                 <CarouselItem>
                     <div className="p-1">
                         <Card>
-                            <CardContent className="flex flex-col aspect-square items-center justify-center p-6">
-                                <span className="text-4xl font-semibold text-[#ff3300]">Social Media Campaign</span>
+                            <CardContent className="flex flex-col aspect-square items-center justify-center p-6 text-white bg-[#ff3300]">
+                                <span className="text-4xl font-semibold">Social Media Campaign</span>
                                 <span className="mt-2">Engage your audience with creative and impactful social media campaigns.</span>
                             </CardContent>
                         </Card>
@@ -34,8 +34,8 @@ const Gallery = () => {
                 <CarouselItem>
                     <div className="p-1">
                         <Card>
-                            <CardContent className="flex flex-col aspect-square items-center justify-center p-6">
-                                <span className="text-4xl font-semibold text-[#ff3300]">E-Commerce</span>
+                            <CardContent className="flex flex-col aspect-square items-center justify-center p-6 text-white bg-[#ff3300]">
+                                <span className="text-4xl font-semibold">E-Commerce</span>
                                 <span className="mt-2">Start selling online with a custom e-commerce website.</span>
                             </CardContent>
                         </Card>
