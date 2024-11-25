@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="text-center m-4">
+    <header className="text-center p-4">
       <Image
         src="/RCC_Blocks_Logo_White.png"
         alt="RCC"
