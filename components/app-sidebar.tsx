@@ -162,7 +162,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     <Sidebar collapsible="icon" {...props}>
       <SidebarHeader>
         {/* <TeamSwitcher teams={data.teams} /> */}
-        <Image src="/RCC_Circle_Blue.png" alt="RCC" width={100} height={100} />
+        <Image src="/RCC_Circle_Blue.png" alt="RCC" width={200} height={200} />
       </SidebarHeader>
       <SidebarContent>
         <NavMain items={data.navMain} />
