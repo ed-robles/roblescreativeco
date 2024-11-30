@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { Handshake, Home } from "lucide-react";
+import { Handshake, Home, Info } from "lucide-react";
 
 import { NavMain } from "@/components/nav-main";
 import { NavProjects } from "@/components/nav-projects";
@@ -15,6 +15,7 @@ import {
   SidebarRail,
 } from "@/components/ui/sidebar";
 import Image from "next/image";
+import Link from "next/link";
 
 // This is sample data.
 const data = {
@@ -46,12 +47,11 @@ const data = {
       url: "https://roblescreativeco.com",
       icon: Home,
       isActive: true,
-      items: [
-        {
-          title: "About Us",
-          url: "http://localhost:3000/about/",
-        },
-      ],
+    },
+    {
+      title: "About",
+      url: "https://roblescreativeco.com/about",
+      icon: Info,
     },
   ],
   projects: [
@@ -68,7 +68,9 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     <Sidebar collapsible="icon" {...props}>
       <SidebarHeader>
         {/* <TeamSwitcher teams={data.teams} /> */}
-        <Image src="/RCC_Circle_Blue.png" alt="RCC" width={80} height={80} />
+        <Link href="https://roblescreativeco.com">
+          <Image src="/RCC_Circle_Blue.png" alt="RCC" width={80} height={80} />
+        </Link>
       </SidebarHeader>
       <SidebarContent>
         <NavMain items={data.navMain} />

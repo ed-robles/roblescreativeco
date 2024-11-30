@@ -1,6 +1,6 @@
 "use client";
 
-import { MoreHorizontal, type LucideIcon } from "lucide-react";
+import { type LucideIcon } from "lucide-react";
 
 import {} from "@/components/ui/dropdown-menu";
 import {
@@ -37,12 +37,6 @@ export function NavProjects({
             </SidebarMenuButton>
           </SidebarMenuItem>
         ))}
-        <SidebarMenuItem>
-          <SidebarMenuButton className="text-sidebar-foreground/70">
-            <MoreHorizontal className="text-sidebar-foreground/70" />
-            <span>More</span>
-          </SidebarMenuButton>
-        </SidebarMenuItem>
       </SidebarMenu>
     </SidebarGroup>
   );
