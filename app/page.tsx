@@ -25,19 +25,27 @@ export default function Page() {
             className="-mt-4 mb-4 animate-spin-slow"
           />
         </div>
-        <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
-          <div className="grid auto-rows-min gap-4 md:grid-cols-3">
-            <div className="aspect-video rounded-xl bg-muted/50">
-              <h1 className="text-center">Brand Identity</h1>
-              <p className="text-center font-light">
-                Build a strong brand identity that resonates with your
-                customers.
-              </p>
+        <div className="flex flex-1 flex-col gap-4 mt-4">
+          <div className="text-6xl">
+            <h1 className="text-white bg-[#4FBBFF] font-bold p-2">
+              ROBLES CREATIVE COMPANY
+            </h1>
+            <div className="tracking-tighter mt-3 p-2">
+              is a <span className="font-bold">technology</span> and{" "}
+              <span className="font-bold">marketing </span>
+              consulting agency
+              <br /> dedicated to empowering businesses in the digital age.
             </div>
-            <div className="aspect-video rounded-xl bg-muted/50"></div>
-            <div className="aspect-video rounded-xl bg-muted/50"></div>
           </div>
-          <div className="min-h-[100vh] flex-1 rounded-xl bg-muted/50 md:min-h-min" />
+          <div className="bg-[#4FBBFF] text-white p-2 flex flex-grow">
+            <h1 className="font-bold underline text-5xl p-4">
+              How We Can Help
+            </h1>
+            <p className="text-4xl p-4">
+              We provide a range of services to help your business grow and
+              succeed in the digital age.
+            </p>
+          </div>
         </div>
       </SidebarInset>
     </SidebarProvider>
