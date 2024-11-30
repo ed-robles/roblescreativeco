@@ -41,7 +41,7 @@ export default function Page() {
             <h1 className="font-bold underline text-5xl p-4">
               How We Can Help
             </h1>
-            <p className=" text-4xl p-4">
+            <p className="text-3xl sm:text-4xl p-4">
               We provide a range of services to help your business grow and
               succeed in the digital age.
             </p>
