@@ -37,11 +37,11 @@ export default function Page() {
               <br /> dedicated to empowering businesses in the digital age.
             </div>
           </div>
-          <div className="bg-[#4FBBFF] text-white p-2 flex flex-grow">
+          <div className="bg-[#4FBBFF] text-white p-2 flex grow">
             <h1 className="font-bold underline text-5xl p-4">
               How We Can Help
             </h1>
-            <p className="text-4xl p-4">
+            <p className=" text-4xl p-4">
               We provide a range of services to help your business grow and
               succeed in the digital age.
             </p>
