@@ -31,8 +31,8 @@ import Image from "next/image";
 const data = {
   user: {
     name: "Edgar Robles",
-    email: "m@example.com",
-    avatar: "/avatars/shadcn.jpg",
+    email: "edgar@roblescreativeco.com",
+    avatar: "/apple-icon.png",
   },
   teams: [
     {
@@ -53,24 +53,24 @@ const data = {
   ],
   navMain: [
     {
-      title: "Playground",
-      url: "#",
+      title: "Home",
+      url: "/",
       icon: SquareTerminal,
       isActive: true,
-      items: [
-        {
-          title: "History",
-          url: "#",
-        },
-        {
-          title: "Starred",
-          url: "#",
-        },
-        {
-          title: "Settings",
-          url: "#",
-        },
-      ],
+      // items: [
+      //   {
+      //     title: "Overview",
+      //     url: "#",
+      //   },
+      //   {
+      //     title: "Starred",
+      //     url: "#",
+      //   },
+      //   {
+      //     title: "Settings",
+      //     url: "#",
+      //   },
+      // ],
     },
     {
       title: "Models",
