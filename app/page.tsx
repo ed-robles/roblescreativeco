@@ -41,9 +41,20 @@ export default function Page() {
             <h1 className="font-bold underline text-5xl p-4">
               How We Can Help
             </h1>
-            <span className="text-3xl sm:text-4xl bg-black p-4">
-              We provide a range of services to help your business grow and
-              succeed in the digital age.
+            <span className="text-2xl sm:text-4xl bg-black p-4">
+              Whether you need a new{" "}
+              <span className="text-[#4FBBFF] font-bold">website</span>,{" "}
+              <span className="text-[#4FBBFF] font-bold">
+                {" "}
+                social media management
+              </span>
+              , or a complete{" "}
+              <span className="text-[#4FBBFF] font-bold">
+                {" "}
+                branding overhaul
+              </span>
+              , our team works closely with you to create a customized plan to
+              make your business stand out and thrive.
             </span>
           </div>
         </div>
