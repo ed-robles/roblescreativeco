@@ -42,8 +42,8 @@ export default function Page() {
               How We Can Help
             </h1>
             <span className="text-2xl sm:text-4xl bg-black p-4">
-              Whether you need a new{" "}
-              <span className="text-[#4FBBFF] font-bold">website</span>,{" "}
+              Whether you need a {" "}
+              <span className="text-[#4FBBFF] font-bold">new website</span>,{" "}
               <span className="text-[#4FBBFF] font-bold">
                 {" "}
                 social media management
