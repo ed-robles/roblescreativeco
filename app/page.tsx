@@ -38,11 +38,9 @@ export default function Page() {
             </div>
           </div>
           <div className="bg-[#4FBBFF] text-white flex grow">
-            <h1 className="font-bold underline text-5xl p-4">
-              How We Can Help
-            </h1>
+            <h1 className="font-bold text-5xl p-4">How We Can Help</h1>
             <span className="text-2xl sm:text-4xl bg-black p-4">
-              Whether you need a {" "}
+              Whether you need a{" "}
               <span className="text-[#4FBBFF] font-bold">new website</span>,{" "}
               <span className="text-[#4FBBFF] font-bold">
                 {" "}
