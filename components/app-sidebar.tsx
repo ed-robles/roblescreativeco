@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { Home, Info, ShoppingBag } from "lucide-react";
+import { Cross, Home, Info, ShoppingBag } from "lucide-react";
 
 import { NavMain } from "@/components/nav-main";
 import { NavProjects } from "@/components/nav-projects";
@@ -59,6 +59,11 @@ const data = {
       name: "Midwest Vault",
       url: "https://midwestvault.com",
       icon: ShoppingBag,
+    },
+    {
+      name: "Primera Iglesia Bautista de MKE",
+      url: "https://iglesiamke.com",
+      icon: Cross,
     },
   ],
 };
