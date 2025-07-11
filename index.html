@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edgar Robles Photography</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <a href="https://roblescreativeco.com" target="_blank" rel="noopener">
+          <img
+            src="pictures/RCC_circle_white.png"
+            class="animate-spin-slow"
+            width="125"
+            height="125"
+            alt="logo"
+          />
+        </a>
+      </div>
+    </header>
+    <!-- <h1>Edgar Robles Photography</h1> -->
+    <div class="gallery">
+      <img src="pictures/DSC00625.jpg" alt="Photo 12" />
+      <img src="pictures/IMG_2086.JPG" alt="Photo 11" />
+      <img src="pictures/DSC00698.jpg" alt="Photo 10" />
+      <img src="pictures/DSC00642.jpg" alt="Photo 9" />
+      <img src="pictures/IMG_1146.jpg" alt="Photo 8" />
+      <img src="pictures/IMG_1267.jpg" alt="Photo 7" />
+      <!-- <img src="pictures/IMG_1776.jpg" alt="Photo 6" /> -->
+      <img src="pictures/IMG_4638.jpg" alt="Photo 6" />
+      <img src="pictures/IMG_4664.jpg" alt="Photo 6" />
+      <img src="pictures/IMG_4667.jpg" alt="Photo 5" />
+      <img src="pictures/IMG_1651.jpg" alt="Photo 4" />
+      <img src="pictures/IMG_1596.jpg" alt="Photo 3" />
+      <img src="pictures/IMG_1577.jpg" alt="Photo 2" />
+      <img src="pictures/IMG_1154.jpg" alt="Photo 1" />
+    </div>
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-content" id="lightbox-img" />
+    </div>
+    <script>
+      const gallery = document.querySelector(".gallery");
+      const lightbox = document.getElementById("lightbox");
+      const lightboxImg = document.getElementById("lightbox-img");
+      const closeBtn = document.querySelector(".close");
+      gallery.addEventListener("click", function (e) {
+        if (e.target.tagName === "IMG") {
+          lightbox.style.display = "flex";
+          lightboxImg.src = e.target.src;
+          lightboxImg.alt = e.target.alt;
+        }
+      });
+      closeBtn.onclick = function () {
+        lightbox.style.display = "none";
+      };
+      lightbox.onclick = function (e) {
+        if (e.target === lightbox) {
+          lightbox.style.display = "none";
+        }
+      };
+    </script>
+    <footer>
+      Created by Edgar Robles.
+    </footer>
+  </body>
+</html>
