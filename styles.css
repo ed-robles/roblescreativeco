@@ -1,7 +1,15 @@
 body {
   margin-left: 1rem;
   margin-right: 1rem;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #111;
 }
+
+p {
+  font-size: 0.95rem;
+}
+
 header {
   width: 100%;
   display: flex;
@@ -20,14 +28,32 @@ footer {
   font-size: 0.85rem;
   color: #6b6b6b;
   background: transparent;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
-body {
-  font-family: Arial, sans-serif;
-  background: #fff;
-  color: #111;
+
+a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.4s;
 }
+a:hover {
+  color: #4fbbff;
+}
+
+.hero {
+  text-align: center;
+  font-size: 1rem;
+  color: black;
+  margin: 3rem auto;
+}
+
+.email-link {
+  border: #111 1px solid;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
 h1 {
   text-align: center;
   margin: 2rem 0 1rem 0;
